@@ -17,22 +17,6 @@ function bytes2str(bytes)
   return str
 end
 
--->8
-function str2bytes(str)
-  local bytes = {}
-  for i = 1, #str do
-    bytes[i] = ord(sub(str, i, i))
-  end
-  return bytes
-end
-
-function bytes2str(bytes)
-  local str = ""
-  for i = 1, #bytes do
-    str = str .. chr(bytes[i])
-  end
-  return str
-end
 __gfx__
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

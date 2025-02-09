@@ -6,8 +6,8 @@ If you want to import any given library, make sure to clone this repo to somewhe
 You can access the library via the `#include` keyword <br />
 
 ```lua
-#include ./utils/stdio.p8
-#include ./utils/strings.p8
+#include ./p8-utils/stdio.p8
+#include ./p8-utils/strings.p8
 
 stdout(str2bytes("hello world!\n"))
 print(bytes2str(stdin()))
